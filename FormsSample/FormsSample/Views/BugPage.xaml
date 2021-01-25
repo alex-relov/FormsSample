@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:stateContainer="clr-namespace:FormsSample.StateContainer" xmlns:cd="clr-namespace:FormsSample.Controls"
+             x:Class="FormsSample.Views.BugPage">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout Spacing="20" VerticalOptions="CenterAndExpand" BackgroundColor="White">
+
+                <Image x:Name="image" HeightRequest="0" Source="xamarin.png"/>
+
+
+                <Entry Placeholder="clich here" />
+
+                <Label Text="test" />
+                <Label Text="test" />
+                <Label Text="test" />
+                <Label Text="test" />
+                <Label Text="test" />
+                <Label Text="test" />
+                <Label Text="test" />
+                <Label Text="test" />
+                <Label Text="test" />
+
+
+                <Button Text="test" />
+
+            </StackLayout>
+
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
