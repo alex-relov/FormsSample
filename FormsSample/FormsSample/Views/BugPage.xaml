@@ -10,7 +10,7 @@
                 <Image x:Name="image" HeightRequest="0" Source="xamarin.png"/>
 
 
-                <Entry Placeholder="clich here" />
+                <Entry Placeholder="click here" />
 
                 <Label Text="test" />
                 <Label Text="test" />
